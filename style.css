@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+marquee h1 {
+    font-family: Algerian;
+    color: rgb(109, 252, 8);
+}
+
+.note{
+    font: 0.7em sans-serif;
+    color: red;
+}
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-family: monospace;
+    color: rgb(109, 252, 8);
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#message {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: rgb(238, 86, 86);
+}
+
+#attempts {
+    color: #555;
+}
